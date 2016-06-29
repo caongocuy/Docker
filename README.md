@@ -39,5 +39,5 @@ Như trên tôi đã nói Docker Container giống như một máy ảo, vậy t
 
 Nếu chỉ có vậy thôi thì có nên dùng Docker không, khi mà máy ảo đang làm rất tốt công việc của nó, câu trả lời sẽ có ngay sau đây thôi.
 
-Ngày xửa ngày xưa khi mà công nghệ ảo hóa chưa phát triển rầm rộ lắm thì người ra dùng thường là một máy chủ vật lý, chạy một HĐH và một ứng dụng nào đó - mô hình này dần dần lộ ra khuyết điểm như là lãng phí tài nguyên, mở rộng vất vả. Sau đó ảo hóa phát triển lúc này mô hình là: 1 máy chủ vật lý nhiều OS chạy trên OS mẹ, nhiều ứng dụng, tài nguyên đã dc sử dụng triệt để hơn
+Ngày xửa ngày xưa khi mà công nghệ ảo hóa chưa phát triển người ra dùng thường là một máy chủ vật lý, chạy một HĐH và một ứng dụng nào đó - mô hình này dần dần lộ ra khuyết điểm như là lãng phí tài nguyên, mở rộng vất vả. Sau đó ảo hóa phát triển lúc này mô hình là: 1 máy chủ vật lý nhiều OS chạy trên OS mẹ, nhiều ứng dụng, tài nguyên đã dc sử dụng triệt để hơn
 nhưng vẫn có gì đó tốn kém ( con người luôn tham lam mà ), chưa kể các vấn đề về hiệu suất cần được đặc biệt quan tâm. Tiếp sau đó 
