@@ -34,3 +34,10 @@ kết nối vào container, thêm, sửa, xóa image và container, cả vấn �
 Như trên tôi đã nói Docker Container giống như một máy ảo, vậy thì nó giống nhau ntn và khác nhau ntn để phân biệt được.
 
 ![img](http://image.prntscr.com/image/a499820cb7ce4d428c38dfbcecffd23d.png "img")
+
+Điểm khác lớn nhất giữa 2 thanh niên này là ở Docker thì các container sử dụng chung kernel với HostOS nên các thao tác bật, tắt sẽ rất nhanh và nhẹ, ngoài ra còn một số điểm khác nữa khi sử dụng các bạn sẽ nhận ra và tôi sẽ không nói ở đây, để các bạn tự trải nghiệm.
+
+Nếu chỉ có vậy thôi thì có nên dùng Docker không, khi mà máy ảo đang làm rất tốt công việc của nó, câu trả lời sẽ có ngay sau đây thôi.
+
+Ngày xửa ngày xưa khi mà công nghệ ảo hóa chưa phát triển rầm rộ lắm thì người ra dùng thường là một máy chủ vật lý, chạy một HĐH và một ứng dụng nào đó - mô hình này dần dần lộ ra khuyết điểm như là lãng phí tài nguyên, mở rộng vất vả. Sau đó ảo hóa phát triển lúc này mô hình là: 1 máy chủ vật lý nhiều OS chạy trên OS mẹ, nhiều ứng dụng, tài nguyên đã dc sử dụng triệt để hơn
+nhưng vẫn có gì đó tốn kém ( con người luôn tham lam mà ), chưa kể các vấn đề về hiệu suất cần được đặc biệt quan tâm. Tiếp sau đó 
